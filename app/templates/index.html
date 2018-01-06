@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Ayylmao</title>
+    <link rel="stylesheet" type="text/css" href="#" />
+</head>
+
+<body>
+
+    <div class="container">
+        {% block content %}{% endblock %}
+        <hr />
+        <footer>
+            <p>&copy; {{ message }}</p>
+        </footer>
+    </div>
+
+    <script src="#"></script>
+    {% block scripts %}{% endblock %}
+
+</body>
+</html>
